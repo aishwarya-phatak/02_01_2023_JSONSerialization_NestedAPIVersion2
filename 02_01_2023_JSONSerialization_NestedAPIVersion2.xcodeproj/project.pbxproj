@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6807177E299E2E1600D0F9CC /* Product1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6807177D299E2E1600D0F9CC /* Product1.swift */; };
 		6851E43C299CD75D000B5EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851E43B299CD75D000B5EEF /* AppDelegate.swift */; };
 		6851E43E299CD75D000B5EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851E43D299CD75D000B5EEF /* SceneDelegate.swift */; };
 		6851E440299CD75D000B5EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851E43F299CD75D000B5EEF /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6807177D299E2E1600D0F9CC /* Product1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product1.swift; sourceTree = "<group>"; };
 		6851E438299CD75D000B5EEF /* 02_01_2023_JSONSerialization_NestedAPIVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_01_2023_JSONSerialization_NestedAPIVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6851E43B299CD75D000B5EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6851E43D299CD75D000B5EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				6851E44F299CD7ED000B5EEF /* Product.swift */,
 				6851E451299CE1CF000B5EEF /* Post.swift */,
 				6851E453299CE25C000B5EEF /* PostViewController.swift */,
+				6807177D299E2E1600D0F9CC /* Product1.swift */,
 			);
 			path = 02_01_2023_JSONSerialization_NestedAPIVersion2;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				6851E440299CD75D000B5EEF /* ViewController.swift in Sources */,
 				6851E450299CD7ED000B5EEF /* Product.swift in Sources */,
 				6851E43C299CD75D000B5EEF /* AppDelegate.swift in Sources */,
+				6807177E299E2E1600D0F9CC /* Product1.swift in Sources */,
 				6851E43E299CD75D000B5EEF /* SceneDelegate.swift in Sources */,
 				6851E452299CE1CF000B5EEF /* Post.swift in Sources */,
 			);

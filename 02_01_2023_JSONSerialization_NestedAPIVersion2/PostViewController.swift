@@ -11,6 +11,7 @@ class PostViewController: UIViewController {
     
     @IBOutlet weak var postTableView: UITableView!
     var posts = [Post]()
+    var products1 = [Product1]()
     var urlString : String?
     var url : URL?
     var urlRequest : URLRequest?
@@ -19,12 +20,13 @@ class PostViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
             jsonParsingUsingDecoder()
-        
     }
     
     func jsonParsingUsingDecoder(){
         
         urlString = "https://jsonplaceholder.typicode.com/posts"
+        
+        //urlString = "https://fakestoreapi.com/products"
         url = URL(string: urlString!)
         urlRequest = URLRequest(url: url!)
         URLSession.shared.dataTask(with: urlRequest!) { data, response, error in
