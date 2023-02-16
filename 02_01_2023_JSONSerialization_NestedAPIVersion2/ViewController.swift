@@ -50,8 +50,7 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.productTableView.reloadData()
             }
-            
         }.resume()
-        
     }
 }
+//in table view bind data of rate and count by eachProduct.rating.rate
