@@ -36,6 +36,8 @@ class PostViewController: UIViewController {
                     self.jsonDecoder = JSONDecoder()
                     let postResponse = try self.jsonDecoder?.decode([Post].self, from: data!)
                     
+                    self.posts = postResponse!      //updated
+                    
                 } catch{
                     print(error)
                 }
